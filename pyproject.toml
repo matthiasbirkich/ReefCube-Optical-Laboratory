@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "reefcube-optical-laboratory"
+version = "0.1.0"
+description = "Open-source Python toolkit for environmental spectroscopy and sensor calibration."
+readme = "README.md"
+requires-python = ">=3.10"
+
+authors = [
+    {name = "Matthias Birkich"}
+]
+
+license = {text = "MIT"}
+
+keywords = [
+    "spectroscopy",
+    "reefcube",
+    "marine",
+    "environment",
+    "AS7343",
+    "sensor",
+    "PPFD",
+    "fluorometer",
+    "photometer",
+    "calibration"
+]
+
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Scientific/Engineering",
+]
+
+dependencies = [
+    "numpy>=1.24",
+    "scipy>=1.11",
+    "matplotlib>=3.7",
+    "pandas>=2.0",
+    "typing_extensions>=4.8"
+]
+
+[project.urls]
+Homepage = "https://github.com/matthiasbirkich/ReefCube-Optical-Laboratory"
+Repository = "https://github.com/matthiasbirkich/ReefCube-Optical-Laboratory"
+Issues = "https://github.com/matthiasbirkich/ReefCube-Optical-Laboratory/issues"
