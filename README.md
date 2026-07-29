@@ -1,78 +1,130 @@
-# ReefCube-Optical-Laboratory
-This is a tool for calculating data from the underwater spectral light sensor AS7343
+# ReefCube Optical Laboratory
 
-Google Colab and private GitHub repository guide
+## An Open-Source Python Toolkit for Environmental Spectroscopy and Sensor Calibration
 
-Recommended repository structure
+**ReefCube Optical Laboratory** is an open-source Python package for the acquisition, processing, calibration, visualization, and analysis of optical environmental sensor data.
+
+The project is designed for scientific applications in marine and freshwater research, environmental monitoring, laboratory spectroscopy, and sensor development. Although originally developed for the ReefCube environmental logger, the software is intentionally modular and can be used with many different optical sensors.
+
+---
+
+## Key Features
+
+- Spectral reconstruction from multispectral sensors (currently AS7343)
+- Environmental sensor data analysis
+- Spectral calibration workflows
+- PPFD estimation
+- Instrument comparison and validation
+- Publication-quality visualizations
+- CSV and JSONL import/export
+- Google Colab support
+- Jupyter Notebook demonstrations
+- Modular and fully documented Python package
+
+---
+
+## Repository Structure
 
 ```text
 ReefCube-Optical-Laboratory/
+
+├── reefcube/
+├── notebooks/
+├── examples/
+├── docs/
+├── test/
+│
 ├── README.md
 ├── requirements.txt
-├── reefcube/
-│   ├── __init__.py
-│   ├── analysis.py
-│   ├── calibration.py
-│   ├── config.py
-│   ├── constants.py
-│   ├── deployment.py
-│   ├── measurement.py
-│   ├── optics.py
-│   ├── ppfd.py
-│   ├── sensors.py
-│   ├── spectroscopy.py
-│   ├── storage.py
-│   ├── visualization.py
-│   └── wavelength.py
-└── notebooks/
-    └── ReefCube_Optical_Laboratory_complete_demo.ipynb
+├── pyproject.toml
+├── LICENSE
+├── CHANGELOG.md
+└── CITATION.cff
 ```
 
-Upload to GitHub
+---
 
-Do not upload the project as one ZIP if you want GitHub and Colab to use the files directly.
+## Installation
 
-1. Create the new private repository.
-2. Open the repository in Safari or on a computer.
-3. Select Add file → Upload files.
-4. Upload README.md, requirements.txt, the reefcube folder, and the notebooks folder.
-5. Commit the uploaded files to the main branch.
+Clone the repository
 
-Create a GitHub token for Colab
+```bash
+git clone https://github.com/matthiasbirkich/ReefCube-Optical-Laboratory.git
+```
 
-1. In GitHub, open Settings.
-2. Open Developer settings.
-3. Choose Personal access tokens → Fine-grained tokens.
-4. Create a token restricted to ReefCube-Optical-Laboratory.
-5. Grant Contents: Read-only permission.
-6. Copy the token.
+Install the required packages
 
-Store the token in Colab
+```bash
+pip install -r requirements.txt
+```
 
-1. Open the notebook in Google Colab.
-2. In the left sidebar, select the key symbol Secrets.
-3. Add a secret named exactly GITHUB_TOKEN.
-4. Paste the token.
-5. Enable notebook access.
+---
 
-Never paste the token into a notebook code cell and never commit it to GitHub.
+## Google Colab
 
-Run the notebook
+The repository contains demonstration notebooks that run directly in Google Colab.
 
-Use Runtime → Run all.
+The notebook automatically clones the repository and imports the local ReefCube package.
 
-Commands beginning with ! are shell commands executed by Colab.
-Normal Python code does not start with !.
-The %cd syntax changes Colab’s working directory, although the supplied notebook handles this automatically with Python.
+---
 
-Open the notebook from GitHub
+## Scientific Applications
 
-In Colab:
+Typical applications include
 
-1. Select File → Open notebook.
-2. Select the GitHub tab.
-3. Authorize GitHub access when requested.
-4. Enter matthiasbirkich/ReefCube-Optical-Laboratory.
-5. Open notebooks/ReefCube_Optical_Laboratory_complete_demo.ipynb.
+- Coral reef monitoring
+- Mangrove ecosystem research
+- Water quality assessment
+- Environmental spectroscopy
+- Optical sensor development
+- Instrument calibration
+- Citizen Science
+- Educational laboratory courses
 
-For a private repository, GitHub authorization and the Colab GITHUB_TOKEN secret may both be needed: authorization lets Colab list/open the notebook; the secret lets the running notebook clone the complete repository.
+---
+
+## Development Status
+
+Current status
+
+- Core package under active development
+- Demonstration notebooks available
+- Publication-quality visualization implemented
+- Additional sensor modules under development
+
+---
+
+## Project Partners
+
+**Leibniz Centre for Tropical Marine Research (LZMT)**  
+Bremen, Germany
+
+**Institute of Marine Sciences (ICM-CSIC)**  
+Barcelona, Spain
+
+**Institute for Advanced Architecture of Catalonia (IAAC)**  
+Barcelona, Spain
+
+---
+
+## License
+
+This project will be released under the MIT License.
+
+---
+
+## Citation
+
+Citation information will be provided after the first public release.
+
+---
+
+## Contact
+
+Project lead:
+
+Matthias Birkich
+
+Leibniz Centre for Tropical Marine Research (LZMT)
+
+Bremen, Germany
