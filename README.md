@@ -2,6 +2,7 @@
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](
 https://colab.research.google.com/github/matthiasbirkich/ReefCube-Optical-Laboratory/blob/main/notebooks/ReefCube_Optical_Laboratory_complete_demo.ipynb
 )
+
 ## Google Colab
 
 The complete demonstration notebook can be opened and executed directly
