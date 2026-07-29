@@ -122,9 +122,7 @@ Citation information will be provided after the first public release.
 
 ## Contact
 
-Project lead:
-
-Matthias Birkich
+Matthias Birkicht
 
 Leibniz Centre for Tropical Marine Research (LZMT)
 
