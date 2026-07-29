@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+
+title: "ReefCube Optical Laboratory"
+
+message: >
+  If you use this software in your research,
+  please cite it using the metadata below.
+
+type: software
+
+authors:
+  - family-names: Birkicht
+    given-names: Matthias
+    affiliation: Leibniz Centre for Tropical Marine Research (LZMT)
+
+repository-code: "https://github.com/matthiasbirkich/ReefCube-Optical-Laboratory"
+
+license: MIT
+
+version: 0.1.0
+
+date-released: 2026-07-29
+
+keywords:
+  - ReefCube
+  - Spectroscopy
+  - Marine Science
+  - Environmental Monitoring
+  - AS7343
+  - Optical Sensors
+  - Calibration
+  - PPFD
+  - Python
