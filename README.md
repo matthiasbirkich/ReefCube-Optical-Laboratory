@@ -95,6 +95,7 @@ Current status
 ---
 
 ## Project Partners
+Developed by LZMT (Germany) in collaboration with ICM-CSIC and IAAC (Spain) to advance open-source optical tools for marine research, environmental monitoring, and Citizen Science.
 
 **Leibniz Centre for Tropical Marine Research (LZMT)**  
 Bremen, Germany
