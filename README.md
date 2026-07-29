@@ -2,6 +2,16 @@
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](
 https://colab.research.google.com/github/matthiasbirkich/ReefCube-Optical-Laboratory/blob/main/notebooks/ReefCube_Optical_Laboratory_complete_demo.ipynb
 )
+## Google Colab
+
+The complete demonstration notebook can be opened and executed directly
+in Google Colab without a local Python installation.
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/matthiasbirkich/ReefCube-Optical-Laboratory/blob/main/notebooks/ReefCube_Optical_Laboratory_complete_demo.ipynb)
+
+The notebook automatically clones this repository and installs the
+ReefCube package in the Colab runtime.
+
 ## An Open-Source Python Toolkit for Environmental Spectroscopy and Sensor Calibration
 
 **ReefCube Optical Laboratory** is an open-source Python package for the acquisition, processing, calibration, visualization, and analysis of optical environmental sensor data.
