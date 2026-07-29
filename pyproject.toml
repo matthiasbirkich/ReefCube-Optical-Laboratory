@@ -13,7 +13,8 @@ authors = [
     {name = "Matthias Birkich"}
 ]
 
-license = {text = "MIT"}
+license = "MIT"
+license-files = ["LICENSE"]
 
 keywords = [
     "spectroscopy",
@@ -48,3 +49,7 @@ dependencies = [
 Homepage = "https://github.com/matthiasbirkich/ReefCube-Optical-Laboratory"
 Repository = "https://github.com/matthiasbirkich/ReefCube-Optical-Laboratory"
 Issues = "https://github.com/matthiasbirkich/ReefCube-Optical-Laboratory/issues"
+
+[tool.setuptools.packages.find]
+include = ["reefcube*"]
+exclude = ["tests*", "docs*", "examples*", "notebooks*"]
